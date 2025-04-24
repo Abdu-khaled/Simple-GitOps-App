@@ -1,6 +1,6 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application 
-metadats:
+metadata:
   name: nginx
   namespace: argocd
 spec:
@@ -9,7 +9,7 @@ spec:
     repoURL: 'https://github.com/Abdu-khaled/Simple-GitOps-App.git'
     path: manifests
     targetRevision: main
-  destinatin:
+  destination:
     server: 'https://kubernetes.default.svc'
     namespace: default
   syncPolicy:
