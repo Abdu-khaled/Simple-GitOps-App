@@ -1,0 +1,22 @@
+apiVersion: argoproj.io/vlalph1
+kind: Application 
+metadats:
+  name: nginx
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: 'https://github.com/Abdu-khaled/Simple-GitOps-App.git'
+    path: manifests
+    targetRevision: main
+  destinatin:
+    server: 'https://kubernetes.default.svc'
+    namespace: default
+  syncPolicy:
+    automated:
+      selfHeal: true
+      prune: true
+
+
+
+
