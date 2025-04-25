@@ -3,12 +3,12 @@ entries:
   httpd:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-04-25T20:34:36.094489548+03:00"
+    created: "2025-04-25T20:43:02.150203159+03:00"
     description: A Helm chart for Kubernetes
-    digest: 9e9312c40755f311d19fc5665e90ed40057e9772809648fae3b8e588ee0c6820
+    digest: 59a31ebc59d1dbe827ca22185d536ed95eeee56d17e6a7fe93ee2b2510578983
     name: httpd
     type: application
     urls:
-    - https://abdu-khaled.github.io/Simple-GitOps-App/httpd-0.1.0.tgz
+    - https://github.com/Abdu-khaled.github.io/Simple-GitOps-App/httpd-0.1.0.tgz
     version: 0.1.0
-generated: "2025-04-25T20:34:36.094037861+03:00"
+generated: "2025-04-25T20:43:02.149723571+03:00"
