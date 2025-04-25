@@ -9,6 +9,11 @@ spec:
     chart: httpbin
     repoURL: https://matheusfm.dev/charts
     targetRevision: 0.1.0
+    helm:
+      releaseName: httpbin
+      values:
+        service:
+          type: NodePort
   destination:
     server: https://kubernetes.default.svc
     namespace: default
