@@ -1,0 +1,21 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: httpd
+  namespace: argocd
+spec:
+  project: default
+  source:
+    chart: httpd
+    repoURL: https://abdu-khaled.github.io/Simple-GitOps-App/charts
+    targetRevision: 0.1.1
+    helm:
+      releaseName: httpd
+  destination:
+    server: 'https://kubernetes.default.svc'
+    namespace: default
+  syncPolicy:
+    automated:
+      selfHeal: true
+      prune: true
+
