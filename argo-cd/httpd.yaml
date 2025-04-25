@@ -8,7 +8,7 @@ spec:
   source:
     chart: httpd
     repoURL: https://abdu-khaled.github.io/Simple-GitOps-App/charts
-    targetRevision: 0.1.1
+    targetRevision: 0.1.0
     helm:
       releaseName: httpd
   destination:
