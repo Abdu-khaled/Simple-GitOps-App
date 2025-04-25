@@ -7,7 +7,7 @@ spec:
   project: default
   source:
     chart: httpd
-    repoURL: https://abdu-khaled.github.io/Simple-GitOps-App/charts
+    repoURL: https://abdu-khaled.github.io/Simple-GitOps-App
     targetRevision: 0.1.0
     helm:
       releaseName: httpd
