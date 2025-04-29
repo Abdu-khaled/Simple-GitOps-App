@@ -1,7 +1,7 @@
 FROM node:14
 
 # Set the working directory inside the container
-WORKDIR /app
+WORKDIR /Simple-Node-App
 
 # Copy the application code into the container
 COPY . .
