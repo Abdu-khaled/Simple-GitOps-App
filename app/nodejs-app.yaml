@@ -31,7 +31,7 @@ spec:
 ---
 apiVersion: v1
 metadata:
-  name: nodejs-service
+  name: nodejs-app
   namespace: default
 spec:
   selector:
