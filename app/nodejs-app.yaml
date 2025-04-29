@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: node
-          image: abdelrahman404/nodejs-app:v5
+          image: nginx:latest
           env:
             - name: MYSQL_HOST
               value: mysql
