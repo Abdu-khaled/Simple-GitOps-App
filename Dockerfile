@@ -1,7 +1,7 @@
 FROM node:14
 
 # Set the working directory inside the container
-WORKDIR /app
+WORKDIR /Simple-Node-App
 
 # Copy package files into the container
 COPY package*.json ./
@@ -10,7 +10,7 @@ COPY package*.json ./
 RUN npm install
 
 # Copy the application code into the container
-COPY index.js ./
+COPY . .
 
 # Set the default command to run the app
 CMD ["node", "index.js"]
