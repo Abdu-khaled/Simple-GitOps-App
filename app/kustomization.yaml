@@ -1,5 +1,5 @@
 resources:
+  - nodejs-app.yaml
   - mysql.yaml
   - redis.yaml
-  - nodejs-app.yaml
   - secrets.yaml
