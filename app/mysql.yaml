@@ -1,5 +1,5 @@
 apiVersionL: v1
-kind: service
+kind: Service
 metadata:
   name: mysql
   namespace: default
